@@ -76,7 +76,6 @@ metadata:
   labels:
     app: filebrowser
 spec:
-  host: ‘’
   to:
     kind: Service
     name: filebrowser-svc
