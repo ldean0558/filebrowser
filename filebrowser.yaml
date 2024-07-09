@@ -18,7 +18,7 @@ spec:
       - name: init
         image: quay.io/vcppds7878/filebrowser:latest
         imagePullPolicy: Always
-        command: [‘sh’, ‘-c’, ‘mkdir -p -m 777 /srv/filebrowser/config && mkdir -p -m 777 /srv/filebrowser/data’]
+        command: ['sh', '-c', 'mkdir -p -m 777 /srv/filebrowser/config && mkdir -p -m 777 /srv/filebrowser/data']
         volumeMounts:
           - name: filebrowser-vol
             mountPath: /srv
